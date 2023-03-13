@@ -53,11 +53,35 @@ a{
     font-size: 67px;
     margin-right: 10px;
 }
-.answer-quetion h2{
+.answer-quetion h1{
     cursor: pointer;
     color: whitesmoke;
     border-radius: 3px;
     margin-top: 10px;
     text-align: center;
     width: 100%;
+}
+#option1{
+    background-color: #fe4a49;
+    transition: 1s;
+}
+#option1:hover{
+    color: #fe4a49;
+    background-color: white;
+}
+#option2{
+    background-color: #2ab7ca;
+    transition: 1s;
+}
+#option2:hover{
+    color: #2ab7ca;
+    background-color: white;
+}
+#option3{
+    background-color: #fed766;
+    transition: 1s;
+}
+#option3:hover{
+    color: #fed766;
+    background-color: white;
 }
